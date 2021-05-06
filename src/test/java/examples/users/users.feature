@@ -22,7 +22,7 @@ Feature: sample karate test script
     # * def user =
     #   """
     #   {
-    #    "name": "morpheus",
+    #    "name": "Anand",
     #    "job": "leader"
     #   }
       
@@ -34,7 +34,7 @@ Feature: sample karate test script
    
     And table reqbody
     |name|job|
-    |"morpheus"|"leader"|
+    |"Anand"|"leader"|
 
     And request reqbody[0]
     When method post
