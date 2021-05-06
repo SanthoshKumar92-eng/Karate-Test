@@ -23,7 +23,7 @@ Feature: sample karate test script
     #   """
     #   {
     #    "name": "Anand",
-    #    "job": "leader"
+    #    "job": "witmer"
     #   }
       
     #   """
@@ -34,7 +34,7 @@ Feature: sample karate test script
    
     And table reqbody
     |name|job|
-    |"Anand"|"leader"|
+    |"santhosh"|"witmer"|
 
     And request reqbody[0]
     When method post
