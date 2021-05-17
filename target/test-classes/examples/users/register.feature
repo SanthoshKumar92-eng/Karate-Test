@@ -5,7 +5,7 @@ Feature: sample karate test script
   Background:
     * url 'https://reqres.in/'
 
-  Scenario: register users
+  Scenario: register users api
    
     Given path 'api/register'
     And request {"email": "eve.holt@reqres.in","password": "pistol"}
