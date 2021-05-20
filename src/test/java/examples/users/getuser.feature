@@ -5,7 +5,7 @@ Feature: sample karate test script
   Background:
     * url 'https://reqres.in/'
 
-  Scenario: get all users and then get the first user by  id
+  Scenario: get all users and then get the first user by id
     Given path 'api/users?page=2'
     When method get
     Then status 200
